@@ -1,0 +1,76 @@
+	/* 4K:  */
+	header{padding: 80px;}
+	header.fixed{background: #fff;}
+	a.logo img{}
+	a.logo img.logo-primary{}
+	a.logo img.logo-secondary{display: none;}
+	header.fixed a.logo img.logo-primary{display: none;}
+	header.fixed a.logo img.logo-secondary{display: block;}
+	nav ul li{
+		color: #fff;
+		margin-right: 90px;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	nav ul li:last-of-type{
+		margin-right: 0;
+	}
+	nav ul li a{
+		color: #fff;
+		letter-spacing: 4px;
+	}
+	header.fixed nav ul li,
+	header.fixed nav ul li a{
+		color: #000;
+	}
+	.banner{
+		background: url(images/bg2.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.about{}
+	.about p{
+		column-gap: 300px;
+		column-count: 2;
+	}
+	.videoplayicon{
+		width: 180px; height: 180px;
+		border: 1px solid #fff;
+	}
+	.specs_items .item{flex-basis: 17%;}
+	.specs_items .item img{max-width: 50%;}
+	.contact{
+		padding: 0 80px;
+	}
+	input, textarea{
+		width: 100%;
+		max-width: 500px;
+		height: 100px !important;
+		font-size: 40px !important;
+		margin-right: 50px;
+		margin-bottom: 50px !important;
+	}
+	textarea{
+		height: 300px !important;
+		max-width: 100%;
+	}
+	input:focus, textarea:focus{
+		outline: 2px solid dodgerblue !important;
+	}
+	button{
+		padding: 40px 100px !important;
+		font-size: 40px !important;
+	}
+	.copyright{
+	}
+	.copyright a{
+		color: #000;
+		border-bottom: 1px solid #000;
+	}
+	.social a{
+		color: #000;
+		padding: 0 60px;
+	}
+	.social a:last-of-type{
+		padding-right: 0;
+	}
+	
