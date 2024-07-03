@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#value{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.button-box button {
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    justify-content: space-between;
+   gap: 50px;
+}
+
+.Decrease{
+    margin-right: 30px;
+}
+
+.Reset{
+    margin-right: 30px;
+}
