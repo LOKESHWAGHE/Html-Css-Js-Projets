@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    /* background-color: black; */
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.nav-logo{
+        height: 50px;
+        width: 100px;
+    }
+.logo{
+        background-image: url("myntra-logo.png");
+        background-size: cover;
+        height: 50px;
+        width: 100%;
+    }
+
+ .nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 20px;
+    margin-top: 10px;
+margin-bottom: 10px; */
+width: 620px;
+height: 40px;
+background-color:rgb(155, 158, 161)
+;
+border-radius: 4px;
+ }   
+ .search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+   
+ }
+ .search-input{
+    width: 100%;
+    font-size: 1rcm;
+    border: none;
+    background-color: rgb(155, 158, 161);
+}
+.hero-section{
+    margin-top: 10px;
+    background-image: url("myntra-hero.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.shop-msg{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.shop-section{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: 50;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    /* background-color: #e2e7e6; */
+
+}
+.Box{
+    height: 250px;
+    width: 20%;
+   background-color: white;
+   /* border: 2px solid black; */
+   padding: 20px 0px 15px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+}
+.box1-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1111.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box2-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box2222.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box3-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box333.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box4-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box444.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box5-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box5555.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box6-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    
+    background-image: url("box6666.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box7-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box7777.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box8-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box8888.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box9-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box9999.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box10-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1000.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box11-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box11111.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box12-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    
+    background-image: url("box1222.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box13-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1333.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box14-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1444.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box15-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1555.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box16-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1666.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box17-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1777.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box18-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    
+    background-image: url("box1888.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box19-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box1999.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box20-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box20000.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box21-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("21111.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box22-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box22222.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box23-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("233333.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box24-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    
+    background-image: url("box24444.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box25-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("25555.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box26-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("26666.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box27-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("27777.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box28-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("box28888.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box29-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    background-image: url("2888.jpg");
+    height: 200px;
+    background-size: cover;
+}
+.box30-image{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    
+    background-image: url("300000.jpg");
+    height: 200px;
+    background-size: cover;
+}
