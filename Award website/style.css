@@ -1,0 +1,227 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .main{
+      position: relative;
+      overflow: hidden;
+
+  }
+  @font-face {
+      font-family: a;
+      src: url(./jost-variable.ttf);
+  }
+  @font-face {
+      font-family: b;
+      src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+  }
+  @font-face {
+      font-family: c;
+      src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+  }
+  nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+    
+  }
+  nav>img{
+    height: 80px;
+  }
+  nav>h3{
+    margin-right: 30px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+  }
+
+ .page1
+  {
+      height: 89vh;
+      width: 100vw;
+      position: relative;
+      background-color: #696a87;
+  }
+ .page1>img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .bottom-page1{
+    position: absolute;
+    bottom: 0%;
+    height: 20vh;
+    width: 50vw;
+    left: 15%;
+}
+.bottom-page1>h1{
+    font-family: a;
+    
+    font-size: 4vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #fff;
+}
+.bottom-page1>button{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 25%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+    background-color: #fff;
+    cursor:grab;
+}
+.bottom-page1:hover button{
+    background-color: lightslategrey;
+    color: #fff;
+  
+}
+.page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: c;
+    
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+}
+.page2>h1{
+font-family: c;
+font-weight: 100;
+}
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.page3-inner1{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    margin-right: 150px;
+    line-height: 1.8vw;
+    border-left: 1px solid lightslategray;
+  
+}
+.page3-inner1>h1{
+    margin-left: 50px;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.page3-inner1>p{
+    margin-left: 50px;
+    margin-top: 55px;
+}
+.page3-inner1>button{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 25%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+    background-color: #fff;
+    cursor:grab;
+}
+.bottom-page3:hover button{
+    background-color: lightslategrey;
+    color: #fff;
+  
+}
+
+.page3-inner2>img{
+    height: 100vh;
+    width: 50vw;
+    
+}
+
+.page4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 180px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.page4>p{
+    margin-top: 50px;
+/* width: 50%; */
+}
+
+.page5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 350px;
+    /* background-color: red; */
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+}
+.page5-inner11{
+   margin-left: 100px;
+   
+}
+.page5-inner11>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-inner11>p{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-inner22{
+    margin-left: 100px;
+   
+}
+.page5-inner22>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-inner22>p{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-inner33{
+    margin-left: 100px;
+
+}
+.page5-inner33>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-inner33>p{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
