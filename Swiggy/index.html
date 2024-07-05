@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="navbar">
+                <div class="navbar-left">
+                    <div class="navbar-logo">
+                        <img src="https://play-lh.googleusercontent.com/A8jF58KO1y2uHPBUaaHbs9zSvPHoS1FrMdrg8jooV9ftDidkOhnKNWacfPhjKae1IA"
+                            alt="">
+                    </div>
+                    <div class="navbar-left-info">
+                        <p>Others</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <div class="navbar-right">
+                    <p>Swiggy Corporate</p>
+                    <p><i class="fa-solid fa-magnifying-glass"></i>Search</p>
+                    <p><i class="fa-solid fa-percent"></i>Offers</p>
+                    <p><i class="fa-solid fa-life-ring"></i>Help</p>
+                    <p><i class="fa-solid fa-user"></i>Sign In</p>
+                    <p class="right"><i class="fa-solid fa-cart-shopping"></i>Cart</p>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div class="header">
+                <div class="header-1">
+                    <div class="header-line">
+                        <h1>What's on your mind?</h1>
+                    </div>
+                    <div class="header-swiper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/5/01d3647e-6484-4a04-ada4-3060b3d00781_Veg.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Chinese.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Momos.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Rolls.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chole%20bhature.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png"
+                                        alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="header-2">
+                    <div class="header-line2">
+                        <h1>Top restaurant chains </h1>
+                    </div>
+                    <div class="header-swiper">
+                        <div class="swiper mySwiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                                        alt="" width="100%">
+
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/64fd45fd9f44c1737bc446e470bed666"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/64fd45fd9f44c1737bc446e470bed666"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/za3zbwlrxwuqtsji7jum"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/eeeylbrnliju2q8oqykq"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/zcbeksptp9imnvvygmrn"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cuyb4edjcdbxaarwqdxy"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a8a00b52ff722102dd649472d52a8a34"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/1641ddd08c8c4a31e86522328f5f8465"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-3">
+                    <div class="header-line2">
+                        <h1>Restaurants with online food delivery in Bhopal</h1>
+                    </div>
+                    <div class="header-3-top">
+                        <button>Filter</button>
+                        <button>Sort By <i class="fa-solid fa-chevron-down"></i> </button>
+                        <button>fast delivery</button>
+                        <button>New On Swiggy</button>
+                        <button>Ratings 4.0+</button>
+                        <button>Pure Veg</button>
+                        <button>Offers</button>
+                        <button>Rs. 300 - Rs. 600</button>
+                        <button>Less Than Rs. 300</button>
+                    </div>
+                
+                    <div class="header-swiper">
+                        <div class="swiper mySwiper11">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                                        alt="" width="100%">
+
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/64fd45fd9f44c1737bc446e470bed666"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/64fd45fd9f44c1737bc446e470bed666"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/za3zbwlrxwuqtsji7jum"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/eeeylbrnliju2q8oqykq"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/zcbeksptp9imnvvygmrn"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cuyb4edjcdbxaarwqdxy"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a8a00b52ff722102dd649472d52a8a34"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                                <div class="swiper-slide upper2">
+
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/1641ddd08c8c4a31e86522328f5f8465"
+                                        alt="" width="100%">
+                                    <h1>Pizza Hut</h1>
+                                    <i class="fa-regular fa-star">
+                                        <h4>4.1 • 31 mins</h4>
+                                    </i>
+                                    <p>Pizzas Bairagrah</p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+
+                    
+
+
+
+                </div>
+
+
+            </div>
+    </div>
+    </header>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 7,
+            spaceBetween: 30,
+
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 4,
+            spaceBetween: 50,
+
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiper = new Swiper(".mySwiper11", {
+            slidesPerView: 4,
+            spaceBetween: 50,
+
+            // autoplay: {
+            //     delay: 2000,
+            //     disableOnInteraction: false,
+            // },
+            // pagination: {
+            //     el: ".swiper-pagination",
+            //     clickable: true,
+            // },
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
